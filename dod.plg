@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DOD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp".\BuildOutput/dod.pch" /YX /Fo".\BuildOutput/" /Fd".\BuildOutput/" /FD /GM /c 
+"D:\Mattman\PROJECTS_CD\Projects\Dod\dodworld.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+libc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib winmm.lib dxguid.lib ddraw.lib dsound.lib dinput.lib /nologo /subsystem:windows /incremental:yes /pdb:".\BuildOutput/dod.pdb" /debug /machine:I386 /nodefaultlib /out:".\Build\dod.exe" 
+.\BuildOutput\dod.obj
+.\BuildOutput\dodddraw.obj
+.\BuildOutput\doddinput.obj
+.\BuildOutput\doddsound.obj
+.\BuildOutput\dodengine.obj
+.\BuildOutput\dodgfx.obj
+.\BuildOutput\dodinput.obj
+.\BuildOutput\dodintro.obj
+.\BuildOutput\dodmemcpy.obj
+.\BuildOutput\dodmenu.obj
+.\BuildOutput\dodmidi.obj
+.\BuildOutput\dodsound.obj
+.\BuildOutput\dodutil.obj
+.\BuildOutput\dodworld.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp"
+<h3>Output Window</h3>
+Compiling...
+dodworld.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+dod.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
